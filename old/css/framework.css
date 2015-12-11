@@ -1,0 +1,383 @@
+html,body { padding: 0px; margin: 0px; height: 100% ;   font-family: 'Open Sans', sans-serif; }
+
+body {
+  padding-bottom: 150px;
+  position: relative;
+  width: 100%;
+  background-color: #f2f2f3;
+  color: grey;
+}
+#lang_change {position: absolute; top: 30px; right: 30px; width: 100px;}
+.flag {width: 30px; height: 21px;}
+header {
+  height: 125px; width: 100%; 
+  top: 0px; left: 0px;
+  padding-top: 20px;  
+  border-bottom: 1px solid #dfdfdf;
+  border-top: 15px solid #dfdfdf; 
+}
+
+header img {border:none;}
+nav {
+  width: 900px;
+  position: absolute;
+  float: right;   
+  font-weight: 400;
+  font-family: 'Raleway', sans-serif;
+ 
+  padding-left: 50px;
+  margin-left: 350px;
+  min-width: 900px;
+  padding-top: 71px;
+}
+nav li {
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+nav a {
+  text-decoration: none;
+  text-align: center;
+  color: #414142;
+}
+header li:hover {
+  cursor:pointer;
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  border-bottom-color: #F15D27;
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  -o-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+}
+h1 {font-weight: lighter;}
+header li.selected {border-bottom:solid 2px #F15D27;}
+h2, h3, h4 { font-family: 'Raleway', sans-serif;
+  font-weight: 300;  color: #414142; -webkit-margin-before: 0em;
+-webkit-margin-after: 0em;
+}
+h3 {text-decoration: underline;}
+#about_header h3 {text-decoration: none;}
+
+#logo {padding-left: 40px; float: left; width:280px; height:118px; }
+#logo img {width:280px; height:118px;}
+.container {  
+  clear: both; 
+  z-index: 1; 
+  font-weight: 200;
+  color: grey;
+  width: 960px;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 15px;
+  line-height: 25px;
+  height: auto;
+}
+.index_container {
+  height: 1000px;
+
+}
+
+/*FOOTER*/
+
+
+footer {
+  clear: both;
+  position:relative;
+  bottom:-175px;
+  left:0;
+  padding-bottom: 20px;
+  width:100%; height: 50px;
+  background-color: #F8F8F8;
+  border-top: 1px solid grey;
+  font-weight: 400;  
+  font-size: 13px;  
+  font-family: 'Raleway', sans-serif;
+  color: #5f6062;
+ }
+ footer a {
+  text-decoration: none;
+  color: #5f6062;
+
+}
+.footer_content {width: 960px;   margin-left: auto;margin-right: auto;}
+footer a:hover { color: #F15D27;  text-decoration: underline;}
+#enquire{float: right;   padding-top: 10px;}
+#copy { float: right; padding-top: 10px; padding-right: 40px;}
+
+@media only screen and (min-width : 569px) and (max-width : 800px) { 
+
+  #logo {padding-left: 25px; width:35%; height:115px; float: left; }
+  header {height: 150px; width: 100%; top: 0px; left: 0px;  padding-top: 20px;  
+   border-bottom: 1px solid #dfdfdf; border-top: 15px solid #dfdfdf; 
+  }
+nav {
+  width: 90%; min-width: 70%;  font-size: 15px; left: 0; 
+  margin-top: 40px; padding-left: 0px; margin-left: 5%;
+}
+nav li {display: inline-block; margin-left: 5px; margin-right: 5px;}
+#page-wrap { width: 60%;}
+.wrapper_home {margin-top: -650px;}
+#text-one h2, #text-two h2, #text-three h2 {font-size: 22px;} 
+#banner {padding-top: 40px;}
+#banner_image {width: 620px; height: 350px;}
+.wrapper_home { margin-top: -368px; font-size: 12px;}
+ 
+.container { height: 665px; width: 580px;}
+.index_container {height: 665px;}
+.about {text-align: center; width: 100%; line-height: 30px; padding-top: 50px; font-size: 14px;}
+
+/*Services */
+.services {text-align: center; width: 100%; padding-top: 50px;  height: 800px;}
+.services h2 {padding-bottom: 30px;}
+.columns { width: 100%; height: auto; clear: both; float: left ;}
+.columns  ul li {display: block; padding: 5px; }
+.column_1 { width: 100%; float: left; padding: 0px; padding-left: 0; }
+.column_2 { width: 100%; float: right; padding: 0px; padding-left: 5px;} 
+.column_3 { width: 100%; float: right; padding: 0px; padding-left: 5px; height:235px; } 
+#service_end_text { clear: both; margin-left: 0px; margin-top: 0;}
+/*END SERVICES*/
+/*Track Record*/
+.track_container {height: 415px;}
+.track_info {height: 150px; margin-top: 50px; text-align: center; width: 100%;}
+.image_row {width: 100%; height: 118px} 
+
+.track_sprite { width: 45%; background-size: 100%; margin: 12px; margin-bottom: 100px; }
+.track_sprite h2 {margin-top: -45px;}
+
+.putney_sprite {height: 184px; }
+.putney_sprite:hover {background-position: 0 -185px;  }
+
+.kensington_sprite {height: 184px;}
+.kensington_sprite:hover {background-position: 0 -185px; }
+
+.mayfair_sprite {height: 184px; margin-right: 0px; }
+.mayfair_sprite:hover {background-position: 0 -184px; height: 184px; }
+
+.belgravia_sprite { height: 184px; }
+.belgravia_sprite:hover {background-position: 0 -184px;  }
+
+.kensington_2_sprite {height: 184px; }
+.kensington_2_sprite:hover {background-position: 0 -184px; }
+/*END TRACK RECORD*/
+/*RESIDENTIAL RESEARCH*/
+.Residential_Research_text {padding-top: 50px; text-align: center;}
+.Residential_Research_text h2 {padding-bottom: 25px;}
+.r_row { padding-top: 25px; height: 300px; padding-left: 65px;}
+.pdf_box {float: left; width: 45%; height: 340px; line-height: 20px; margin-bottom: 30px; }
+.pdf_box h3 {font-size: 13px; }
+
+.savills_04_sprite { height: 283px; width: 50%; right: -20px; }
+.savills_04_sprite:hover {background-position: 0 -283px; }
+
+.savills_05_sprite {height: 283px; width: 50%; left: 80px; }
+.savills_05_sprite:hover {background-position: 0 -283px; }
+
+.knight_sprite {height: 243px; width: 100%; left: 315px;}
+.knight_sprite:hover {background-position: 0 -243px; }
+
+.colliers_sprite { height: 267px; width: 100%; left: 315px; }  
+.colliers_sprite:hover {background-position: 0 -283px; height: 267px;}
+
+.savills_sprite {height: 272px; width: 100%; left: 80px; }
+.savills_sprite:hover {background-position: 0 -283px;}
+
+.kf_sprite {height: 272px; width: 100%; left: 315px;}
+.kf_sprite:hover {background-position: 0 -283px;}
+
+.cbre_sprite {height: 272px; width: 100%; left: 80px; }
+.cbre_sprite:hover {background-position: 0 -283px;}
+
+.jll_sprite {height: 272px; width: 100%; left: 315px;}
+.jll_sprite:hover {background-position: 0 -283px;}
+
+.colliers_2_sprite {height: 143px; width: 100%; left: 80px;}
+.colliers_2_sprite:hover {background-position: 0 -143px;}
+
+.savills_2_sprite {height: 272px; width: 100%; left: 80px; }
+.savills_2_sprite:hover {background-position: 0 -283px;}
+
+.savills_3_sprite {height: 272px; width: 100%; left: 80px; }
+.savills_3_sprite:hover {background-position: 0 -283px;}
+
+.kf_2_sprite {height: 268px; width: 100%;left: 315px; }
+.kf_2_sprite:hover {background-position: 0 -267px;}
+/*END RESIDENTIAL RESEARCH*/
+/*CURRENT AVAILIBILITY*/
+.current {height: 510px;}
+.current-availibility_text {padding-top: 50px;}
+.current-availibility_text h2{padding-bottom: 50px;}
+#property_text { width: 70%;}
+.avail_image_row{width: 100%;  height: 500px;}
+.avail_text {width: 50%;}
+.avail_img_01 {  width: 40%; height: 232px; margin-left: 300px;}
+.avail_img_01:hover {background-position: 0 -233px;}
+/*END CURRENT AVAILIBILITY*/
+/*CONTACT*/
+.contact {height: 510px;}
+#contact_us { padding-top: 100px; text-align: center;}
+.contact_text {width: 100%; }
+.form {display: none;}
+/*END CONTACT*/
+
+/*FOOTER*/
+footer {bottom:-175px; padding-bottom: 20px; width:100%; height: 30px;  font-size: 9px; }
+.footer_content {width: 80%;   margin-left: auto;margin-right: auto;}
+#enquire{display: none;}
+#copy { float: right; padding-top: 10px; margin-right: 10%;}
+
+}
+
+
+
+
+
+@media only screen and (max-width : 568px) {
+  #logo {padding-left: 5px; width:371px; height:157px; }
+  header {height: 430px; width: 120%; 
+   top: 0px; left: 0px;  padding-top: 20px;   
+  }
+  .chinese_header, .hong_header {height: 330px;}
+nav {
+ width: 100%; min-width: 100%;
+  float: left; font-size: 20px;
+  padding-left: 0px;  margin-left: 0px; padding-top: 160px;
+}
+nav ul {width: 100%; padding: 0; padding-left: 20px;}
+nav li {display: block; margin-left: 0px; margin-right: 0px; padding: 5px; margin: 5px;
+  border: 1px solid #F15D27; border-radius: 10px; width: 100%;}
+header li:hover {border-bottom:solid 1px #F15D27; background-color: #F15D27; }
+header li.selected {border-bottom: 1px solid #F15D27;}
+
+#lang_change {right: 0px; width: 85px;}
+.flag {width: 40px; height: 29px;}
+
+#banner { width: 120%; padding-top: 30px;}
+#banner_image {width: 100%; height: 250px; padding-left: 0px; }
+.wrapper_home {display: none;}
+.container { height: 400px; width: 100%; }
+.index_container {height: 665px;}
+.about {text-align: center;  width: 100%; font-size: 16px;
+ line-height: 22px; padding-top: 40px; padding-bottom: 25px; padding-left: 30px; 
+}
+
+
+
+/*Services */
+.services {width: 100%;  height: 800px; text-align: center; padding-top: 20px; padding-left: 25px;}
+.services h2 {padding-bottom: 30px;}
+.columns { width: 100%; height: auto; }
+.column_1 { width: 100%; float: left; padding: 10px; padding-left: 0; }
+.column_2 { width: 100%; float: left; padding: 10px; padding-left: 0px;} 
+.column_3 { width: 100%; float: left; padding: 10px; padding-left: 0px; height: 320px; } 
+#service_end_text { clear: both; margin-left: 0px; margin-top: 100px; padding-bottom: 25px;}
+
+/*END SERVICES*/
+
+
+/*Track Record*/
+
+.track_container {width: 110%;}
+.track_info {height: 170px; margin-top: 30px; text-align: center; margin-left: 35px !important; }
+.image_row {width: 100%; height: 590px; }
+.row_two {height: 730px;}
+.track_sprite { width: 100%; background-size: 100%; margin-right: 0; margin: 20px;}
+.track_sprite h2 {margin-top: -30px; text-align: center;}
+
+.putney_sprite {   height: 222px; }
+.putney_sprite:hover {background-position: 0 -249px;  }
+
+.kensington_sprite { height: 222px; }
+.kensington_sprite:hover {background-position: 0 -249px; }
+
+.mayfair_sprite { height: 222px; margin-right: 0px; }
+.mayfair_sprite:hover {background-position: 0 -249px; height: 222px; }
+
+.belgravia_sprite {  height: 222px; }
+.belgravia_sprite:hover {background-position: 0 -249px;  }
+
+.kensington_2_sprite {   height: 222px; }
+.kensington_2_sprite:hover {background-position: 0 -249px; }
+
+/*Property pages*/
+
+#back_to {width: 60%; margin-left: 5px; }
+.grid_layout {width: 100%; height: 600px; margin-top: 50px; text-align: center;}
+.grid_text {padding-left: 30px; height: 240px !important;}
+.grid {width: 100%; height: 300px;}
+.grid_1 {float: left;}
+.grid_2 {float: right; }
+.grid_3 { float: left;height: 300px;}
+.grid_4 { float: right;}
+
+/*END Property PAGES*/
+
+/*RESIDENTIAL RESEARCH*/
+.Residential_Research_text { height: 800px; padding-top: 30px;text-align: center; padding-left: 30px;}
+.r_row { padding-top: 25px; height: 360px;}
+.pdf_box {float: left; width: 100%; height: 370px; line-height: 20px; }
+.pdf_box h3 {font-size: 13px; text-decoration: none;}
+
+.savills_04_sprite {height: 283px; width: 100%; left: 70px;}
+.savills_04_sprite:hover {background-position: 0 -283px; }
+
+.savills_05_sprite {height: 283px; width: 100%; left: 70px;}
+.savills_05_sprite:hover {background-position: 0 -283px; }
+
+.knight_sprite { height: 243px; width: 100%; left: 70px;}
+.knight_sprite:hover {background-position: 0 -243px; }
+
+.colliers_sprite {height: 267px; width: 100%; float: left; left: 70px;}  
+.colliers_sprite:hover {background-position: 0 -283px; height: 267px;}
+
+.savills_sprite {height: 272px; width: 100%;  float: left; left: 70px;}
+.savills_sprite:hover {background-position: 0 -283px;}
+
+.kf_sprite { height: 272px; width: 100%; left: 70px;}
+.kf_sprite:hover {background-position: 0 -283px;}
+
+.cbre_sprite { height: 283px; width: 216px; left: 70px;}
+.cbre_sprite:hover {background-position: 0 -283px;}
+
+.jll_sprite { height: 272px; width: 100%; left: 70px;}
+.jll_sprite:hover {background-position: 0 -283px;}
+
+.colliers_2_sprite { height: 143px; width: 100%; left: 70px; }
+.colliers_2_sprite:hover {background-position: 0 -143px;}
+
+.savills_2_sprite {height: 272px; width: 100%;  left: 70px; }
+.savills_2_sprite:hover {background-position: 0 -283px;}
+
+.savills_3_sprite {height: 272px; width: 100%; left: 70px; }
+.savills_3_sprite:hover {background-position: 0 -283px;}
+
+.kf_2_sprite {height: 268px; width: 100%; left: 70px;}
+.kf_2_sprite:hover {background-position: 0 -267px;}
+/*END RESIDENTIAL RESEARCH*/
+
+/*CURRENT AVAILIBILITY*/
+.current-availibility_text { padding-top: 30px; text-align: center;}
+.current-availibility_text h2{padding-bottom: 50px; padding-left: 20px;}
+#property_text { width: 100%;}
+.avail_property_box {height: 500px}
+.avail_image_row{width: 100%;  height: 550px;}
+.avail_text {width: 100%; float: left; margin-left: 30px;}
+.avail_text ul {border: 1px solid #F15D27; width: 80px;}
+.avail_img_01 {width: 100%; height: 232px; margin-left: 0px; margin-top: 280px; margin-bottom: 100px; margin-left: 30px; }
+.avail_img_01:hover {background-position: 0 -233px;}
+/*END CURRENT AVAILIBILITY*/
+/*CONTACT*/
+
+#contact_us { padding-top: 30px; height: 400px;}
+.contact_text { width: 100%; text-align: center; padding-left: 30px; }
+
+
+.form {
+  display: none;
+}
+.indent {padding-left: 10px;}
+/*END CONTACT*/
+
+footer {display: none}
+
+}

@@ -1,0 +1,281 @@
+
+#banner { width: 100%; padding-top: 75px;}
+#page-wrap {
+ clear: both;
+ position:absolute;
+ z-index: 552;
+ width: 50%;
+ margin-top: 20px;
+}
+.wrapper_home {margin-top: -650px;}
+#text-one, #text-two, #text-three {
+  position: relative;
+  width: 100%;
+  padding-left: 30px;
+  display: none;
+  color: #ffffff;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 400;
+  
+}
+#text-one h2, #text-two h2, #text-three h2 {
+font-size: 28px;
+} 
+#banner_image {
+  opacity: 0.7;
+  width:960px;
+  height:648px;
+}
+.about {
+ width: 960px; 
+ color: #5f6062; 
+ line-height: 30px;
+ padding-top: 40px;
+}
+#about_column_1 {
+  width: 500px;
+  float:left;
+  line-height: 1.8em;
+  color: #5f6062;
+}
+#about_column_2 {
+  width: 400px;
+  float: right;
+  line-height: 1.8em;
+  color: #5f6062;
+}
+
+/*Property pages*/
+img {border: none;}
+#back_to {	
+	width: 200px;
+	margin-left: 25px;	margin-top: 25px;
+}
+#back_to a {
+	text-align: center;
+	text-decoration: none;
+	color: #F15D27;
+	font-weight: lighter;
+	font-weight: 200;
+  font-family: 'Open Sans', sans-serif;
+}
+#page_content{  width: 100%;}
+#property_info {
+	width: 300px;	height: 400px;
+	float: left;
+	padding-left: 100px;
+}
+#property_info h2 {width: 370px;}
+#image_wrapper {float: right; width: 650px; }
+#image_wrapper img {
+	width: 295px;	height: 250px;
+	padding: 10px;
+	float: right;
+}
+
+
+/*Services */
+.services {
+  width: 100%;
+  margin-left: 0px;
+  padding-top: 100px;  
+  height: 800px;
+}
+.services h2 {padding-bottom: 30px;}
+.columns { width: 960px; height: auto; }
+.column_1 { width: 288px; float: left; padding: 20px; padding-left: 0; }
+.column_2 { width: 288px; float: left; padding: 20px; padding-left: 15px;} 
+.column_3 { width: 288px; float: left; padding: 20px; padding-left: 15px; height: 470px; } 
+#service_end_text { clear: both; margin-left: 0px; margin-top: 100px;}
+
+/*END SERVICES*/
+
+/*Track Record*/
+#track_container {margin-left: 55px;}
+.track_info {height: 150px; margin-top: 100px;}
+.image_row {width: 100%; height: 300px} 
+
+.track_sprite {background-repeat: no-repeat; background-position: 0 0; float: left; border: none;
+  background-position: 0 0;  background-repeat: no-repeat; width: 250px; background-size: 100%; margin-right: 105px;
+}
+.track_sprite h2 {margin-top: -45px;}
+
+.putney_sprite { background-image: url(../images/putney_sprite.jpg);  height: 177px; }
+.putney_sprite:hover {background-position: 0 -177px;  }
+
+.kensington_sprite { background-image: url(../images/track/kensington_sprite.jpg);  height: 177px;   
+}
+.kensington_sprite:hover {background-position: 0 -177px; }
+
+.mayfair_sprite { background-image: url(../images/track/mayfair_sprite.jpg);  height: 177px; margin-right: 0px; 
+}
+.mayfair_sprite:hover {background-position: 0 -177px; height: 177px; }
+
+.belgravia_sprite { background-image: url(../images/track/belgravia_sprite.jpg);  height: 177px; }
+.belgravia_sprite:hover {background-position: 0 -177px;  }
+
+.kensington_2_sprite { background-image: url(../images/track/External-8_sprite.jpg);  height: 177px;   
+}
+.kensington_2_sprite:hover {background-position: 0 -177px; }
+
+/*END TRACK RECORD*/
+
+
+
+/*Property pages*/
+
+.grid_layout {width: 900px; height: 600px;  margin-right: auto; margin-left: auto; margin-top: 50px;}
+.grid {width: 400px; height: 300px;}
+.grid_1 {float: left;}
+.grid_2 {float: right; }
+.grid_3 { float: left;height: 530px;}
+.grid_4 { float: right;}
+
+
+
+/*CURRENT AVAILIBILITY*/
+.current-availibility_text {
+  padding-top: 100px;
+}
+.current-availibility_text h2{
+  padding-bottom: 50px;
+}
+#property_text {
+  width: 450px;
+}
+.avail_image_row{
+  
+  width: 960px;  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.avail_text {width: 400px; float: left;}
+.avail_text ul {
+  border: 1px solid #F15D27; width: 80px;
+}
+.avail_text h2:hover {text-decoration: underline;}
+
+.avail_img_01 {
+  background-image: url(../images/current_01_sprite.jpg); position: absolute; background-repeat: no-repeat; width: 383px; height: 288px;
+  float: right; margin-left: 450px; background-size: 100%;
+}
+.avail_img_01:hover {background-position: 0 -287px;}
+.avail_property_box {} 
+.avail_property_box img {border: none;}
+.avail_property_box a {
+  text-decoration: none;
+  display: block;
+}
+.avail_property_box li {
+  display: block;
+  margin-left: -35px;
+}
+.float_left {float: left;}
+.float_right {float: right;}
+/*END CURRENT AVAILIBILITY*/
+
+/*RESIDENTIAL RESEARCH*/
+.Residential_Research_text { height: 800px; padding-top: 100px; position: relative; margin-left: auto; margin-right: auto;}
+.Residential_Research_text a {text-decoration: none; }
+.Residential_Research_text a:hover {text-decoration: none; color: ; }
+.r_row { padding-top: 25px; height: 360px;}
+.pdf_box {float: left; width: 240px; height: 340px; background-position: 0 0; float: left; line-height: 20px; }
+.pdf_box h3 {font-size: 13px; text-decoration: none;}
+.pdf_box h3:hover { color:#F15D27;text-decoration: underline;
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  -o-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+}
+.savills_04_sprite {background-image: url(../pdf/savills_04_sprite.jpg);  background-repeat: no-repeat; 
+  position: absolute; height: 283px; width: 200px;
+}
+.savills_04_sprite:hover {background-position: 0 -283px; }
+.savills_05_sprite {background-image: url(../pdf/savills_05_sprite.jpg);  background-repeat: no-repeat; 
+  position: absolute; height: 283px; width: 200px;
+}
+.savills_05_sprite:hover {background-position: 0 -283px; }
+
+.knight_sprite { background-image: url(../pdf/Knight-Frank_sprite.jpg);  background-repeat: no-repeat; 
+  position: absolute; height: 243px; width: 200px;
+}
+.knight_sprite:hover {background-position: 0 -243px; }
+
+.colliers_sprite {background-image: url(../pdf/Colliers_sprite.jpg); background-repeat: no-repeat;
+  position: absolute; height: 267px; width: 200px; float: left;
+}  
+.colliers_sprite:hover {background-position: 0 -283px; height: 267px;}
+
+.savills_sprite { background-image: url(../pdf/Savills_sprite.jpg); background-repeat: no-repeat;
+  position: absolute; height: 272px; width: 200px;  float: left;
+}
+.savills_sprite:hover {background-position: 0 -283px;}
+
+.kf_sprite {background-image: url(../pdf/kf_sprite.jpg); background-repeat: no-repeat;
+  position: absolute; height: 272px; width: 200px;
+}
+.kf_sprite:hover {background-position: 0 -283px;}
+
+.cbre_sprite {background-image: url(../pdf/CBRE_sprite.jpg); background-repeat: no-repeat;
+  position: absolute; height: 272px; width: 216px;     
+}
+.cbre_sprite:hover {background-position: 0 -283px;}
+
+.jll_sprite {background-image: url(../pdf/JLL_new_heights_sprite.jpg); background-repeat: no-repeat;
+ position: absolute; height: 272px; width: 200px;    
+}
+.jll_sprite:hover {background-position: 0 -283px;}
+
+.colliers_2_sprite {background-image: url(../pdf/colliers_resi_sprite.jpg); background-repeat: no-repeat;
+  position: absolute; height: 143px; width: 200px;   
+}
+.colliers_2_sprite:hover {background-position: 0 -143px;}
+
+.savills_2_sprite {background-image: url(../pdf/savills_02_sprite.jpg); background-repeat: no-repeat;
+  position: absolute; height: 272px; width: 200px;   
+}
+.savills_2_sprite:hover {background-position: 0 -283px;}
+
+.savills_3_sprite {background-image: url(../pdf/savills_03_sprite.jpg); background-repeat: no-repeat;
+  position: absolute; height: 272px; width: 200px;   
+}
+.savills_3_sprite:hover {background-position: 0 -283px;}
+
+.kf_2_sprite {background-image: url(../pdf/kf_02_sprite.jpg); background-repeat: no-repeat;
+  position: absolute; height: 268px; width: 200px;   
+}
+.kf_2_sprite:hover {background-position: 0 -267px;}
+
+/*END RESIDENTIAL RESEARCH*/
+
+/*CONTACT*/
+#contact_us { padding-top: 100px; height: 600px;}
+.contact_text {
+  width: 500px;
+  float: left;
+}
+.contact_text a{
+  text-decoration: none;
+  padding-left: 10px;
+  color: #5f6062;
+}
+.contact_text a:hover {
+  text-decoration: underline;
+  color: #F15D27;
+  cursor: pointer;
+}
+.form {
+  margin-top: 45px;
+  padding-left: 50px;
+  width: 40%;
+  float: right;
+}
+.indent {padding-left: 10px;}
+/*END CONTACT*/
+
+
+
+@media screen and (min-width: 585px) and (max-width: 800px)  {
+    
+
+  }
